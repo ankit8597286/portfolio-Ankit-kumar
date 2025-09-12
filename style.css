@@ -239,6 +239,25 @@
       border-radius: 20px;
       box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
     }
+    @media (max-width: 480px) {
+  nav {
+    display: flex;
+    flex-wrap: nowrap;      /* keep all links in one line */
+    overflow-x: auto;       /* enable horizontal scroll */
+    white-space: nowrap;    /* prevent wrapping */
+    scroll-behavior: smooth;
+    justify-content: flex-start; /* align from left */
+  }
+
+  nav::-webkit-scrollbar {
+    display: none; /* hide scrollbar for clean look */
+  }
+
+  nav a {
+    flex: 0 0 auto;   /* prevent shrinking */
+    margin-right: 10px; /* spacing between buttons */
+  }
+}
 
     h1,
     h2 {
