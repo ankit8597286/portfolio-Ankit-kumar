@@ -26,3 +26,9 @@ window.addEventListener("scroll", () => {
     }
   });
 });
+document.addEventListener("contextmenu", e => e.preventDefault()); // disable right click
+  document.onkeydown = function(e) {
+    if (e.ctrlKey && (e.key === "u" || e.key === "s" || e.key === "i")) {
+      return false; // disable Ctrl+U, Ctrl+S, Ctrl+Shift+I
+    }
+  }
