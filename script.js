@@ -21,8 +21,8 @@ function sendToGmail(event) {
           if (rect.top < window.innerHeight - 50) {
         
             bar.style.width = bar.classList.contains("cpp") ? "70%" :
-              bar.classList.contains("python") ? "80%" :
-                bar.classList.contains("dsa") ? "65%" :
+              bar.classList.contains("python") ? "60%" :
+                bar.classList.contains("dsa") ? "20%" :
                   bar.classList.contains("htmlcss") ? "90%" :
                     bar.classList.contains("javascript") ? "75%" :
                       bar.classList.contains("php") ? "60%" :
