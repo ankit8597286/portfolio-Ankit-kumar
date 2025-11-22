@@ -1,9 +1,8 @@
-<!-- NEON ANIMATED HEADER -->
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=800&size=30&duration=2500&pause=800&color=00E5FF&center=true&vCenter=true&width=700&lines=Hello+I'm+Ankit+Kumar+👋;Welcome+to+My+GitHub+Profile!;Developer+⚡+Designer+🎨+Creator+🚀;Let's+Build+Something+Mind-Blowing+🔥" />
 </p>
 
-<!-- FLOATING GLOW BANNER -->
+
 <p align="center">
   <img src="https://i.imgur.com/Ho8YJ7k.gif" width="720" style="border-radius:15px; box-shadow:0 0 20px #00eaff, 0 0 40px #0077ff; animation: float 3s ease-in-out infinite;" />
 </p>
